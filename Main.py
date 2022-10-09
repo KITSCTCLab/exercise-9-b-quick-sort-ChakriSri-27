@@ -1,15 +1,16 @@
 from typing import List
 
-def sorting(data,low,high)
+def sorting(data,low,high):
     # Write code here
-   
+    i=low-1
     pivot = data[high]
     for j in range(low,high):
         if data[j] <= pivot:
             i+=1
             data[i],data[j] = data[j],data[i]
     data[i+1],data[high] = data[high],data[i+1]
-    
+    return i+1
+
 def quick_sort(data, low, high) -> List[int]:
     if low<high:
         pi =sorting(data,low,high)
