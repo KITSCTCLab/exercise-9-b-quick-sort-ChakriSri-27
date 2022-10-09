@@ -1,8 +1,8 @@
 from typing import List
 
-def sorting(data,low,high):
+def sorting(data,low,high)
     # Write code here
-    i=low-1
+   
     pivot = data[high]
     for j in range(low,high):
         if data[j] <= pivot:
